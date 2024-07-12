@@ -3,7 +3,12 @@ import logging
 from functools import partial
 
 import voluptuous as vol
-from homeassistant.components.sensor import DEVICE_CLASSES, DOMAIN, STATE_CLASS_MEASUREMENT, SensorEntity
+from homeassistant.components.sensor import (
+    DEVICE_CLASSES,
+    DOMAIN,
+    STATE_CLASS_MEASUREMENT,
+    SensorEntity
+)
 from homeassistant.const import (
     CONF_DEVICE_CLASS,
     CONF_UNIT_OF_MEASUREMENT,
